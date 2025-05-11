@@ -1,0 +1,5807 @@
+[
+  {
+    "id": 76,
+    "avatar": "images\\76.png",
+    "skin_cn": "",
+    "family_name_cn": "小鸟游",
+    "given_name_cn": "星野",
+    "nick_name": [
+      "大叔"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "SG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 145,
+    "type": "Tank",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 42,
+    "avatar": "images\\42.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "小鸟游",
+    "given_name_cn": "星野",
+    "nick_name": [
+      "水星野",
+      "水星",
+      "水大叔",
+      "水叔"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "SG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 145,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 86,
+    "avatar": "images\\86.png",
+    "skin_cn": "",
+    "family_name_cn": "砂狼",
+    "given_name_cn": "白子",
+    "nick_name": [
+      ""
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 58,
+    "avatar": "images\\58.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "砂狼",
+    "given_name_cn": "白子",
+    "nick_name": [
+      "水白子"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 87,
+    "avatar": "images\\87.png",
+    "skin_cn": "骑行",
+    "family_name_cn": "砂狼",
+    "given_name_cn": "白子",
+    "nick_name": [
+      "车白"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 85,
+    "avatar": "images\\85.png",
+    "skin_cn": "",
+    "family_name_cn": "奥空",
+    "given_name_cn": "绫音",
+    "nick_name": [
+      ""
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 153,
+    "type": "Healer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 47,
+    "avatar": "images\\47.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "奥空",
+    "given_name_cn": "绫音",
+    "nick_name": [
+      "水绫音",
+      "直升机"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 153,
+    "type": "T.S.",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "B",
+    "street_adaptability": "C",
+    "equipment": [
+      "手套",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 83,
+    "avatar": "images\\83.png",
+    "skin_cn": "",
+    "family_name_cn": "黑见",
+    "given_name_cn": "芹香",
+    "nick_name": [
+      "黑猫"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 153,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 44,
+    "avatar": "images\\44.png",
+    "skin_cn": "新年",
+    "family_name_cn": "黑见",
+    "given_name_cn": "芹香",
+    "nick_name": [
+      "春黑猫",
+      "春黑"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 153,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "S",
+    "street_adaptability": "C",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 78,
+    "avatar": "images\\78.png",
+    "skin_cn": "",
+    "family_name_cn": "十六夜",
+    "given_name_cn": "野宫",
+    "nick_name": [
+      "富婆"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "MG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 40,
+    "avatar": "images\\40.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "十六夜",
+    "given_name_cn": "野宫",
+    "nick_name": [
+      "水富婆"
+    ],
+    "school": "阿拜多斯高等学院",
+    "weapon_type": "MG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 37,
+    "avatar": "images\\37.png",
+    "skin_cn": "",
+    "family_name_cn": "杏山",
+    "given_name_cn": "和纱",
+    "nick_name": [
+      "肥猫,甜点猫,凯茜帕鲁格"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 155,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 139,
+    "avatar": "images\\139.png",
+    "skin_cn": "",
+    "family_name_cn": "柚鸟",
+    "given_name_cn": "夏",
+    "nick_name": [
+      "小夏",
+      "夏老师"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 152,
+    "type": "Tank",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 118,
+    "avatar": "images\\118.png",
+    "skin_cn": "",
+    "family_name_cn": "伊原木",
+    "given_name_cn": "好美",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 146,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 157,
+    "avatar": "images\\157.png",
+    "skin_cn": "",
+    "family_name_cn": "下江",
+    "given_name_cn": "小春",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 148,
+    "type": "Healer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 299,
+    "avatar": "images\\299.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "下江",
+    "given_name_cn": "小春",
+    "nick_name": [
+      "水春",
+      "泳春",
+      "咏春"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 148,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 194,
+    "avatar": "images\\194.png",
+    "skin_cn": "",
+    "family_name_cn": "圆堂",
+    "given_name_cn": "志美子",
+    "nick_name": [
+      "图书妹"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 157,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "B",
+    "street_adaptability": "C",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 23,
+    "avatar": "images\\23.png",
+    "skin_cn": "",
+    "family_name_cn": "古关",
+    "given_name_cn": "忧",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 165,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      4,
+      4,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 302,
+    "avatar": "images\\302.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "古关",
+    "given_name_cn": "忧",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 165,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Elastic",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      1,
+      1,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 26,
+    "avatar": "images\\26.png",
+    "skin_cn": "",
+    "family_name_cn": "若叶",
+    "given_name_cn": "日向",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 166,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 301,
+    "avatar": "images\\301.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "若叶",
+    "given_name_cn": "日向",
+    "nick_name": [
+      "水日向"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 166,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      6,
+      1,
+      1,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 74,
+    "avatar": "images\\74.png",
+    "skin_cn": "",
+    "family_name_cn": "阿慈谷",
+    "given_name_cn": "日富美",
+    "nick_name": [
+      "鸡妹",
+      "浮士德",
+      "啊哈哈",
+      "悍匪头子"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 158,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 70,
+    "avatar": "images\\70.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "阿慈谷",
+    "given_name_cn": "日富美",
+    "nick_name": [
+      "水鸡"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 158,
+    "type": "T.S.",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "ex_skill_cost": 10
+  },
+  {
+    "id": 1,
+    "avatar": "images\\1.png",
+    "skin_cn": "",
+    "family_name_cn": "圣园",
+    "given_name_cn": "未花",
+    "nick_name": [
+      "mika,三力"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SMG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 157,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 3,
+    "avatar": "images\\3.png",
+    "skin_cn": "",
+    "family_name_cn": "白洲",
+    "given_name_cn": "梓",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 228,
+    "avatar": "images\\228.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "白洲",
+    "given_name_cn": "梓",
+    "nick_name": [
+      "水梓"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "S",
+    "street_adaptability": "C",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 203,
+    "avatar": "images\\203.png",
+    "skin_cn": "",
+    "family_name_cn": "歌住",
+    "given_name_cn": "樱子",
+    "nick_name": [
+      "觉悟"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 25,
+    "avatar": "images\\25.png",
+    "skin_cn": "",
+    "family_name_cn": "桐藤",
+    "given_name_cn": "渚",
+    "nick_name": [
+      "大渚教"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 10,
+    "avatar": "images\\10.png",
+    "skin_cn": "",
+    "family_name_cn": "栗村",
+    "given_name_cn": "爱理",
+    "nick_name": [
+      "冰淇淋"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 160,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      1,
+      1,
+      1,
+      1,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 99,
+    "avatar": "images\\99.png",
+    "skin_cn": "",
+    "family_name_cn": "伊落",
+    "given_name_cn": "玛丽",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 151,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "A",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 55,
+    "avatar": "images\\55.png",
+    "skin_cn": "体操服",
+    "family_name_cn": "伊落",
+    "given_name_cn": "玛丽",
+    "nick_name": [
+      "体玛"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 151,
+    "type": "Healer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 142,
+    "avatar": "images\\142.png",
+    "skin_cn": "",
+    "family_name_cn": "宇泽",
+    "given_name_cn": "玲纱",
+    "nick_name": [
+      "芋泥小孩"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 153,
+    "type": "Tank",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 79,
+    "avatar": "images\\79.png",
+    "skin_cn": "",
+    "family_name_cn": "静山",
+    "given_name_cn": "真白",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 155,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 80,
+    "avatar": "images\\80.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "静山",
+    "given_name_cn": "真白",
+    "nick_name": [
+      "水白"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 155,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 129,
+    "avatar": "images\\129.png",
+    "skin_cn": "",
+    "family_name_cn": "苍森",
+    "given_name_cn": "美祢",
+    "nick_name": [
+      "团长,潘森"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 168,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 92,
+    "avatar": "images\\92.png",
+    "skin_cn": "",
+    "family_name_cn": "浦和",
+    "given_name_cn": "花子",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 161,
+    "type": "Healer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 300,
+    "avatar": "images\\300.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "浦和",
+    "given_name_cn": "花子",
+    "nick_name": [
+      "水花子",
+      "水花"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 161,
+    "type": "Dealer",
+    "attack_attribute": "Vibration",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 98,
+    "avatar": "images\\98.png",
+    "skin_cn": "",
+    "family_name_cn": "朝颜",
+    "given_name_cn": "花江",
+    "nick_name": [
+      "大护士"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 150,
+    "type": "Healer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 178,
+    "avatar": "images\\178.png",
+    "skin_cn": "圣诞",
+    "family_name_cn": "朝颜",
+    "given_name_cn": "花江",
+    "nick_name": [
+      "圣诞大护士"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 150,
+    "type": "Healer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 91,
+    "avatar": "images\\91.png",
+    "skin_cn": "",
+    "family_name_cn": "鹫见",
+    "given_name_cn": "芹娜",
+    "nick_name": [
+      "小护士"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Healer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "B",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 153,
+    "avatar": "images\\153.png",
+    "skin_cn": "圣诞",
+    "family_name_cn": "鹫见",
+    "given_name_cn": "芹娜",
+    "nick_name": [
+      "圣诞小护士"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 111,
+    "avatar": "images\\111.png",
+    "skin_cn": "",
+    "family_name_cn": "羽川",
+    "given_name_cn": "莲见",
+    "nick_name": [
+      ""
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 179,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 60,
+    "avatar": "images\\60.png",
+    "skin_cn": "体操服",
+    "family_name_cn": "羽川",
+    "given_name_cn": "莲见",
+    "nick_name": [
+      "体莲"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 179,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "A",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 181,
+    "avatar": "images\\181.png",
+    "skin_cn": "",
+    "family_name_cn": "守月",
+    "given_name_cn": "铃美",
+    "nick_name": [
+      "闪光弹"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 162,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 94,
+    "avatar": "images\\94.png",
+    "skin_cn": "",
+    "family_name_cn": "剑先",
+    "given_name_cn": "鹤城",
+    "nick_name": [
+      "颜艺"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 162,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 269,
+    "avatar": "images\\269.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "剑先",
+    "given_name_cn": "鹤城",
+    "nick_name": [
+      "水鹤城"
+    ],
+    "school": "崔尼蒂综合学院",
+    "weapon_type": "SG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 162,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "A",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 39,
+    "avatar": "images\\39.png",
+    "skin_cn": "",
+    "family_name_cn": "天雨",
+    "given_name_cn": "亚子",
+    "nick_name": [
+      "亚子"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 165,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "徽章",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 38,
+    "avatar": "images\\38.png",
+    "skin_cn": "",
+    "family_name_cn": "枣",
+    "given_name_cn": "伊吕波",
+    "nick_name": [
+      "168,彩叶,伊吕ball,红毛丹"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 151,
+    "type": "T.S.",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      8,
+      8,
+      7,
+      7,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 72,
+    "avatar": "images\\72.png",
+    "skin_cn": "",
+    "family_name_cn": "银镜",
+    "given_name_cn": "伊织",
+    "nick_name": [
+      "佐仓,佐三枪"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 157,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "S",
+    "street_adaptability": "C",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 122,
+    "avatar": "images\\122.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "银镜",
+    "given_name_cn": "伊织",
+    "nick_name": [
+      "水佐仓"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 157,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 176,
+    "avatar": "images\\176.png",
+    "skin_cn": "",
+    "family_name_cn": "鬼方",
+    "given_name_cn": "佳代子",
+    "nick_name": [
+      "恐惧妹"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "HG",
+    "age": 18,
+    "grade": "三年生",
+    "height": 157,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 123,
+    "avatar": "images\\123.png",
+    "skin_cn": "新年",
+    "family_name_cn": "鬼方",
+    "given_name_cn": "佳代子",
+    "nick_name": [
+      "春佳"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "HG",
+    "age": 18,
+    "grade": "三年生",
+    "height": 157,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 117,
+    "avatar": "images\\117.png",
+    "skin_cn": "",
+    "family_name_cn": "火宫",
+    "given_name_cn": "千夏",
+    "nick_name": [
+      ""
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 159,
+    "type": "Healer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 140,
+    "avatar": "images\\140.png",
+    "skin_cn": "温泉",
+    "family_name_cn": "火宫",
+    "given_name_cn": "千夏",
+    "nick_name": [
+      "温泉针"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 159,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 229,
+    "avatar": "images\\229.png",
+    "skin_cn": "",
+    "family_name_cn": "下仓",
+    "given_name_cn": "惠",
+    "nick_name": [
+      "喷火枪"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "FT",
+    "age": 17,
+    "grade": "三年生",
+    "height": 164,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 71,
+    "avatar": "images\\71.png",
+    "skin_cn": "",
+    "family_name_cn": "空崎",
+    "given_name_cn": "日奈",
+    "nick_name": [
+      "委员长",
+      "魔王"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "MG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 142,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "C",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "ex_skill_cost": 7
+  },
+  {
+    "id": 121,
+    "avatar": "images\\121.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "空崎",
+    "given_name_cn": "日奈",
+    "nick_name": [
+      "水魔,水hina"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "MG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 142,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手套",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 110,
+    "avatar": "images\\110.png",
+    "skin_cn": "",
+    "family_name_cn": "鳄渊",
+    "given_name_cn": "明里",
+    "nick_name": [
+      ""
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 167,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 195,
+    "avatar": "images\\195.png",
+    "skin_cn": "",
+    "family_name_cn": "黑馆",
+    "given_name_cn": "晴奈",
+    "nick_name": [
+      "神秘狙"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 163,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 145,
+    "avatar": "images\\145.png",
+    "skin_cn": "新年",
+    "family_name_cn": "黑馆",
+    "given_name_cn": "晴奈",
+    "nick_name": [
+      "春晴奈",
+      "爆发狙"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 163,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 186,
+    "avatar": "images\\186.png",
+    "skin_cn": "",
+    "family_name_cn": "牛牧",
+    "given_name_cn": "朱莉",
+    "nick_name": [
+      "毒锅"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 170,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "A",
+    "street_adaptability": "C",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 97,
+    "avatar": "images\\97.png",
+    "skin_cn": "",
+    "family_name_cn": "爱清",
+    "given_name_cn": "风香",
+    "nick_name": [
+      "煮饭婆"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 159,
+    "type": "Healer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 49,
+    "avatar": "images\\49.png",
+    "skin_cn": "新年",
+    "family_name_cn": "爱清",
+    "given_name_cn": "风香",
+    "nick_name": [
+      "春枫香",
+      "春锅"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 159,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 73,
+    "avatar": "images\\73.png",
+    "skin_cn": "",
+    "family_name_cn": "狮子堂",
+    "given_name_cn": "泉",
+    "nick_name": [
+      "汉堡,老八"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "MG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 161,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 75,
+    "avatar": "images\\75.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "狮子堂",
+    "given_name_cn": "泉",
+    "nick_name": [
+      "水汉堡"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "MG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 161,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "A",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 18,
+    "avatar": "images\\18.png",
+    "skin_cn": "",
+    "family_name_cn": "冰室",
+    "given_name_cn": "濑名",
+    "nick_name": [
+      "救护车"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "GL",
+    "age": 17,
+    "grade": "三年生",
+    "height": 155,
+    "type": "T.S.",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 107,
+    "avatar": "images\\107.png",
+    "skin_cn": "",
+    "family_name_cn": "浅黄",
+    "given_name_cn": "睦月",
+    "nick_name": [
+      "地雷,大头,加州女孩"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "MG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 144,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 177,
+    "avatar": "images\\177.png",
+    "skin_cn": "新年",
+    "family_name_cn": "浅黄",
+    "given_name_cn": "睦月",
+    "nick_name": [
+      "春月"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "MG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 144,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 103,
+    "avatar": "images\\103.png",
+    "skin_cn": "",
+    "family_name_cn": "赤司",
+    "given_name_cn": "纯子",
+    "nick_name": [
+      "小火龙,淳子"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "A",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 146,
+    "avatar": "images\\146.png",
+    "skin_cn": "新年",
+    "family_name_cn": "赤司",
+    "given_name_cn": "纯子",
+    "nick_name": [
+      ""
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 192,
+    "avatar": "images\\192.png",
+    "skin_cn": "",
+    "family_name_cn": "伊草",
+    "given_name_cn": "春香",
+    "nick_name": [
+      ""
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 157,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "A",
+    "street_adaptability": "C",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 124,
+    "avatar": "images\\124.png",
+    "skin_cn": "新年",
+    "family_name_cn": "伊草",
+    "given_name_cn": "春香",
+    "nick_name": [
+      "春遥香",
+      "春香"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 157,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "C",
+    "street_adaptability": "C",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 112,
+    "avatar": "images\\112.png",
+    "skin_cn": "",
+    "family_name_cn": "陆八魔",
+    "given_name_cn": "爱露",
+    "nick_name": [
+      "社长"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 102,
+    "avatar": "images\\102.png",
+    "skin_cn": "新年",
+    "family_name_cn": "陆八魔",
+    "given_name_cn": "爱露",
+    "nick_name": [
+      "春露"
+    ],
+    "school": "歌赫娜学院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "SS",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 52,
+    "avatar": "images\\52.png",
+    "skin_cn": "",
+    "family_name_cn": "早濑",
+    "given_name_cn": "优香",
+    "nick_name": [
+      "邮箱,没包人,半包人,管账婆"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "A",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 54,
+    "avatar": "images\\54.png",
+    "skin_cn": "体操服",
+    "family_name_cn": "早濑",
+    "given_name_cn": "优香",
+    "nick_name": [
+      "体香"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Tank",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 20,
+    "avatar": "images\\20.png",
+    "skin_cn": "",
+    "family_name_cn": "各务",
+    "given_name_cn": "千寻",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 160,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 69,
+    "avatar": "images\\69.png",
+    "skin_cn": "",
+    "family_name_cn": "猫冢",
+    "given_name_cn": "响",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "MT",
+    "age": 15,
+    "grade": "一年生",
+    "height": 154,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 51,
+    "avatar": "images\\51.png",
+    "skin_cn": "应援团",
+    "family_name_cn": "猫冢",
+    "given_name_cn": "响",
+    "nick_name": [
+      "拉拉响"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "MT",
+    "age": 15,
+    "grade": "一年生",
+    "height": 154,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "A",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "ex_skill_cost": 7
+  },
+  {
+    "id": 187,
+    "avatar": "images\\187.png",
+    "skin_cn": "",
+    "family_name_cn": "乙花",
+    "given_name_cn": "堇",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 167,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 213,
+    "avatar": "images\\213.png",
+    "skin_cn": "",
+    "family_name_cn": "美甘",
+    "given_name_cn": "妮露",
+    "nick_name": [
+      "尼禄"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SMG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 146,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 138,
+    "avatar": "images\\138.png",
+    "skin_cn": "邦妮",
+    "family_name_cn": "美甘",
+    "given_name_cn": "妮露",
+    "nick_name": [
+      "兔尼禄",
+      "红兔"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SMG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 146,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 212,
+    "avatar": "images\\212.png",
+    "skin_cn": "",
+    "family_name_cn": "音濑",
+    "given_name_cn": "小玉",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 158,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "B",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 101,
+    "avatar": "images\\101.png",
+    "skin_cn": "",
+    "family_name_cn": "黑崎",
+    "given_name_cn": "小雪",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 211,
+    "avatar": "images\\211.png",
+    "skin_cn": "",
+    "family_name_cn": "丰见",
+    "given_name_cn": "琴里",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 151,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 57,
+    "avatar": "images\\57.png",
+    "skin_cn": "应援团",
+    "family_name_cn": "丰见",
+    "given_name_cn": "琴里",
+    "nick_name": [
+      "拉拉鸟"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 151,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 62,
+    "avatar": "images\\62.png",
+    "skin_cn": "",
+    "family_name_cn": "明星",
+    "given_name_cn": "日鞠",
+    "nick_name": [
+      "轮椅,otto"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 162,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "鞋子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 77,
+    "avatar": "images\\77.png",
+    "skin_cn": "",
+    "family_name_cn": "飞鸟马",
+    "given_name_cn": "时",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 165,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Elastic",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 230,
+    "avatar": "images\\230.png",
+    "skin_cn": "邦妮",
+    "family_name_cn": "飞鸟马",
+    "given_name_cn": "时",
+    "nick_name": [
+      "兔时"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 165,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 113,
+    "avatar": "images\\113.png",
+    "skin_cn": "",
+    "family_name_cn": "一之濑",
+    "given_name_cn": "明日奈",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 167,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 130,
+    "avatar": "images\\130.png",
+    "skin_cn": "邦妮",
+    "family_name_cn": "一之濑",
+    "given_name_cn": "明日奈",
+    "nick_name": [
+      "兔斯娜"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "二年生",
+    "height": 167,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 160,
+    "avatar": "images\\160.png",
+    "skin_cn": "",
+    "family_name_cn": "小钩",
+    "given_name_cn": "晴",
+    "nick_name": [
+      "小勾八"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 153,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 81,
+    "avatar": "images\\81.png",
+    "skin_cn": "",
+    "family_name_cn": "花冈",
+    "given_name_cn": "柚子",
+    "nick_name": [
+      "柚子橱,柚子炮,UZQueen"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "GL",
+    "age": 16,
+    "grade": "一年生",
+    "height": 150,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 82,
+    "avatar": "images\\82.png",
+    "skin_cn": "女仆",
+    "family_name_cn": "花冈",
+    "given_name_cn": "柚子",
+    "nick_name": [
+      "女仆柚",
+      "箱柚"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "GL",
+    "age": 16,
+    "grade": "一年生",
+    "height": 150,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Elastic",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "A",
+    "street_adaptability": "C",
+    "equipment": [
+      "手套",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 2,
+    "avatar": "images\\2.png",
+    "skin_cn": "",
+    "family_name_cn": "才羽",
+    "given_name_cn": "桃",
+    "nick_name": [
+      "小桃",
+      "苦呀西"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "AR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 143,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 185,
+    "avatar": "images\\185.png",
+    "skin_cn": "",
+    "family_name_cn": "白石",
+    "given_name_cn": "歌原",
+    "nick_name": [
+      "炮台"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SMG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 162,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 53,
+    "avatar": "images\\53.png",
+    "skin_cn": "应援团",
+    "family_name_cn": "白石",
+    "given_name_cn": "歌原",
+    "nick_name": [
+      "拉炮",
+      "情热炮"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SMG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 162,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 108,
+    "avatar": "images\\108.png",
+    "skin_cn": "",
+    "family_name_cn": "天童",
+    "given_name_cn": "爱丽丝",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "RG",
+    "age": 1,
+    "grade": "一年生",
+    "height": 152,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 152,
+    "avatar": "images\\152.png",
+    "skin_cn": "女仆",
+    "family_name_cn": "天童",
+    "given_name_cn": "爱丽丝",
+    "nick_name": [
+      "女仆爱,扫地机器人"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "RG",
+    "age": 1,
+    "grade": "一年生",
+    "height": 152,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 182,
+    "avatar": "images\\182.png",
+    "skin_cn": "",
+    "family_name_cn": "小涂",
+    "given_name_cn": "真纪",
+    "nick_name": [
+      "彩弹,真纪老祖,大蛇克星"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "C",
+    "street_adaptability": "C",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 27,
+    "avatar": "images\\27.png",
+    "skin_cn": "",
+    "family_name_cn": "才羽",
+    "given_name_cn": "绿",
+    "nick_name": [
+      "小绿"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 143,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 158,
+    "avatar": "images\\158.png",
+    "skin_cn": "",
+    "family_name_cn": "和泉元",
+    "given_name_cn": "艾米",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 167,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 334,
+    "avatar": "images\\334.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "和泉元",
+    "given_name_cn": "艾米",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 167,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 175,
+    "avatar": "images\\175.png",
+    "skin_cn": "",
+    "family_name_cn": "角楯",
+    "given_name_cn": "花凛",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 170,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 137,
+    "avatar": "images\\137.png",
+    "skin_cn": "邦妮",
+    "family_name_cn": "角楯",
+    "given_name_cn": "花凛",
+    "nick_name": [
+      "兔花凛"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "一年生",
+    "height": 170,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "ex_skill_cost": 7
+  },
+  {
+    "id": 24,
+    "avatar": "images\\24.png",
+    "skin_cn": "",
+    "family_name_cn": "室笠",
+    "given_name_cn": "茜",
+    "nick_name": [
+      ""
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 164,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "B",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 132,
+    "avatar": "images\\132.png",
+    "skin_cn": "邦妮",
+    "family_name_cn": "室笠",
+    "given_name_cn": "茜",
+    "nick_name": [
+      "白兔"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 164,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 28,
+    "avatar": "images\\28.png",
+    "skin_cn": "",
+    "family_name_cn": "生盐",
+    "given_name_cn": "诺亚",
+    "nick_name": [
+      "生理盐水"
+    ],
+    "school": "千禧年科技学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 161,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 179,
+    "avatar": "images\\179.png",
+    "skin_cn": "",
+    "family_name_cn": "连河",
+    "given_name_cn": "切里诺",
+    "nick_name": [
+      "斯大萝"
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "HG",
+    "age": 1,
+    "grade": "三年生",
+    "height": 128,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      7,
+      7,
+      6,
+      6,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 141,
+    "avatar": "images\\141.png",
+    "skin_cn": "温泉",
+    "family_name_cn": "连河",
+    "given_name_cn": "切里诺",
+    "nick_name": [
+      ""
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "HG",
+    "age": 1,
+    "grade": "三年生",
+    "height": 128,
+    "type": "T.S.",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 119,
+    "avatar": "images\\119.png",
+    "skin_cn": "",
+    "family_name_cn": "天见",
+    "given_name_cn": "和香",
+    "nick_name": [
+      "望远镜"
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 147,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 120,
+    "avatar": "images\\120.png",
+    "skin_cn": "温泉",
+    "family_name_cn": "天见",
+    "given_name_cn": "和香",
+    "nick_name": [
+      "温泉望远镜",
+      "温泉和香"
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 147,
+    "type": "Healer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 166,
+    "avatar": "images\\166.png",
+    "skin_cn": "",
+    "family_name_cn": "安守",
+    "given_name_cn": "实梨",
+    "nick_name": [
+      "工头"
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 158,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 106,
+    "avatar": "images\\106.png",
+    "skin_cn": "",
+    "family_name_cn": "间宵",
+    "given_name_cn": "时雨",
+    "nick_name": [
+      ""
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "GL",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 95,
+    "avatar": "images\\95.png",
+    "skin_cn": "",
+    "family_name_cn": "佐城",
+    "given_name_cn": "巴",
+    "nick_name": [
+      ""
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "SR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 165,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "A",
+    "street_adaptability": "C",
+    "equipment": [
+      "手套",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 264,
+    "avatar": "images\\264.png",
+    "skin_cn": "",
+    "family_name_cn": "姬木",
+    "given_name_cn": "芽瑠",
+    "nick_name": [
+      ""
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 137,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 45,
+    "avatar": "images\\45.png",
+    "skin_cn": "",
+    "family_name_cn": "池仓",
+    "given_name_cn": "真里奈",
+    "nick_name": [
+      "保洁阿姨",
+      "阿姨"
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 166,
+    "type": "Tank",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 167,
+    "avatar": "images\\167.png",
+    "skin_cn": "",
+    "family_name_cn": "秋泉",
+    "given_name_cn": "红叶",
+    "nick_name": [
+      ""
+    ],
+    "school": "红冬联邦学院",
+    "weapon_type": "RL",
+    "age": 15,
+    "grade": "一年生",
+    "height": 135,
+    "type": "Dealer",
+    "attack_attribute": "Vibration",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 131,
+    "avatar": "images\\131.png",
+    "skin_cn": "",
+    "family_name_cn": "近卫",
+    "given_name_cn": "南",
+    "nick_name": [
+      "发哥"
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 166,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "护符",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 4,
+    "avatar": "images\\4.png",
+    "skin_cn": "",
+    "family_name_cn": "春原",
+    "given_name_cn": "心奈",
+    "nick_name": [
+      "一佰昏",
+      "11岁"
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "AR",
+    "age": 11,
+    "grade": "一年生",
+    "height": 139,
+    "type": "Healer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 128,
+    "avatar": "images\\128.png",
+    "skin_cn": "",
+    "family_name_cn": "朱城",
+    "given_name_cn": "瑠海",
+    "nick_name": [
+      ""
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "SMG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 168,
+    "type": "Healer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "C",
+    "indoor_adaptability": "S",
+    "street_adaptability": "C",
+    "equipment": [
+      "手套",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 90,
+    "avatar": "images\\90.png",
+    "skin_cn": "",
+    "family_name_cn": "春原",
+    "given_name_cn": "瞬",
+    "nick_name": [
+      "大瞬"
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "SR",
+    "age": 1,
+    "grade": "三年生",
+    "height": 174,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 109,
+    "avatar": "images\\109.png",
+    "skin_cn": "小",
+    "family_name_cn": "春原",
+    "given_name_cn": "瞬",
+    "nick_name": [
+      "幼瞬,铜花瞬,雪玲,雪莲（国际服）"
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "SR",
+    "age": 1,
+    "grade": "三年生",
+    "height": 1,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 88,
+    "avatar": "images\\88.png",
+    "skin_cn": "",
+    "family_name_cn": "药子",
+    "given_name_cn": "纱绫",
+    "nick_name": [
+      "鼠鼠,砂绫"
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 89,
+    "avatar": "images\\89.png",
+    "skin_cn": "便服",
+    "family_name_cn": "药子",
+    "given_name_cn": "纱绫",
+    "nick_name": [
+      "私服鼠"
+    ],
+    "school": "山海经高等学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "B",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 144,
+    "avatar": "images\\144.png",
+    "skin_cn": "",
+    "family_name_cn": "尾刃",
+    "given_name_cn": "康娜",
+    "nick_name": [
+      "局长",
+      "狂犬"
+    ],
+    "school": "瓦尔基丽警员学院",
+    "weapon_type": "HG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 166,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "徽章",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 63,
+    "avatar": "images\\63.png",
+    "skin_cn": "",
+    "family_name_cn": "合欢垣",
+    "given_name_cn": "吹雪",
+    "nick_name": [
+      "甜甜圈",
+      "摆烂姐"
+    ],
+    "school": "瓦尔基丽警员学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 148,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "C",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 100,
+    "avatar": "images\\100.png",
+    "skin_cn": "",
+    "family_name_cn": "中务",
+    "given_name_cn": "桐乃",
+    "nick_name": [
+      ""
+    ],
+    "school": "瓦尔基丽警员学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 161,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "A",
+    "street_adaptability": "D",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 84,
+    "avatar": "images\\84.png",
+    "skin_cn": "",
+    "family_name_cn": "和乐",
+    "given_name_cn": "千世",
+    "nick_name": [
+      "芝士,雪女"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "GL",
+    "age": 16,
+    "grade": "二年生",
+    "height": 159,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 48,
+    "avatar": "images\\48.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "和乐",
+    "given_name_cn": "千世",
+    "nick_name": [
+      "水千世",
+      "水千"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "GL",
+    "age": 16,
+    "grade": "二年生",
+    "height": 159,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ex_skill_cost": 6
+  },
+  {
+    "id": 22,
+    "avatar": "images\\22.png",
+    "skin_cn": "",
+    "family_name_cn": "水羽",
+    "given_name_cn": "三森",
+    "nick_name": [
+      ""
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "一年生",
+    "height": 156,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 56,
+    "avatar": "images\\56.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "水羽",
+    "given_name_cn": "三森",
+    "nick_name": [
+      "水三森"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "HG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 156,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      3,
+      1,
+      1,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 32,
+    "avatar": "images\\32.png",
+    "skin_cn": "",
+    "family_name_cn": "大野",
+    "given_name_cn": "月咏",
+    "nick_name": [
+      "巨忍"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 180,
+    "type": "Tank",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 143,
+    "avatar": "images\\143.png",
+    "skin_cn": "",
+    "family_name_cn": "桑上",
+    "given_name_cn": "果穗",
+    "nick_name": [
+      ","
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "三年生",
+    "height": 173,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "S",
+    "indoor_adaptability": "D",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 29,
+    "avatar": "images\\29.png",
+    "skin_cn": "",
+    "family_name_cn": "勇美",
+    "given_name_cn": "枫",
+    "nick_name": [
+      ""
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 142,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 93,
+    "avatar": "images\\93.png",
+    "skin_cn": "",
+    "family_name_cn": "春日",
+    "given_name_cn": "椿",
+    "nick_name": [
+      "狗盾"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SMG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 162,
+    "type": "Tank",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 2,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "D",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "背包",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 180,
+    "avatar": "images\\180.png",
+    "skin_cn": "",
+    "family_name_cn": "久田",
+    "given_name_cn": "泉奈",
+    "nick_name": [
+      "忍忍",
+      "小狐狸"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 155,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 46,
+    "avatar": "images\\46.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "久田",
+    "given_name_cn": "泉奈",
+    "nick_name": [
+      "水忍忍",
+      "水狐"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 155,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 214,
+    "avatar": "images\\214.png",
+    "skin_cn": "",
+    "family_name_cn": "千鸟",
+    "given_name_cn": "满",
+    "nick_name": [
+      "小满"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SG",
+    "age": 17,
+    "grade": "三年生",
+    "height": 153,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "FRONT",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 11,
+    "avatar": "images\\11.png",
+    "skin_cn": "",
+    "family_name_cn": "狐坂",
+    "given_name_cn": "若藻",
+    "nick_name": [
+      "藻子姐",
+      "大狐狸"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SR",
+    "age": 18,
+    "grade": "其他",
+    "height": 161,
+    "type": "Dealer",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 41,
+    "avatar": "images\\41.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "狐坂",
+    "given_name_cn": "若藻",
+    "nick_name": [
+      "水若藻"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SR",
+    "age": 18,
+    "grade": "其他",
+    "height": 161,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 215,
+    "avatar": "images\\215.png",
+    "skin_cn": "",
+    "family_name_cn": "朝比奈",
+    "given_name_cn": "菲娜",
+    "nick_name": [
+      ""
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "MG",
+    "age": 17,
+    "grade": "一年生",
+    "height": 165,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "C",
+    "street_adaptability": "A",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 96,
+    "avatar": "images\\96.png",
+    "skin_cn": "",
+    "family_name_cn": "河和",
+    "given_name_cn": "静子",
+    "nick_name": [
+      "小车,老板娘"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 153,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 2,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "A",
+    "indoor_adaptability": "B",
+    "street_adaptability": "A",
+    "equipment": [
+      "鞋子",
+      "项链",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 50,
+    "avatar": "images\\50.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "河和",
+    "given_name_cn": "静子",
+    "nick_name": [
+      "水静子",
+      "水静"
+    ],
+    "school": "百鬼夜行联合学院",
+    "weapon_type": "SG",
+    "age": 16,
+    "grade": "二年生",
+    "height": 153,
+    "type": "Support",
+    "attack_attribute": "Mystic",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "B",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 35,
+    "avatar": "images\\35.png",
+    "skin_cn": "",
+    "family_name_cn": "秤",
+    "given_name_cn": "亚津子",
+    "nick_name": [
+      "公主,墩子,秤砣,龇牙笑"
+    ],
+    "school": "阿里乌斯分院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 158,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 34,
+    "avatar": "images\\34.png",
+    "skin_cn": "",
+    "family_name_cn": "槌永",
+    "given_name_cn": "日和",
+    "nick_name": [
+      "黑暗初音",
+      "纳米肚肚"
+    ],
+    "school": "阿里乌斯分院",
+    "weapon_type": "SR",
+    "age": 16,
+    "grade": "二年生",
+    "height": 155,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 36,
+    "avatar": "images\\36.png",
+    "skin_cn": "",
+    "family_name_cn": "锭前",
+    "given_name_cn": "纱织",
+    "nick_name": [
+      "家人侠"
+    ],
+    "school": "阿里乌斯分院",
+    "weapon_type": "AR",
+    "age": 17,
+    "grade": "二年生",
+    "height": 167,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "MIDDLE",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 33,
+    "avatar": "images\\33.png",
+    "skin_cn": "",
+    "family_name_cn": "戒野",
+    "given_name_cn": "美咲",
+    "nick_name": [
+      ""
+    ],
+    "school": "阿里乌斯分院",
+    "weapon_type": "RL",
+    "age": 16,
+    "grade": "二年生",
+    "height": 163,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "S",
+    "street_adaptability": "B",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 8,
+    "avatar": "images\\8.png",
+    "skin_cn": "",
+    "family_name_cn": "空井",
+    "given_name_cn": "咲",
+    "nick_name": [
+      ""
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 161,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Special",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "背包",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 279,
+    "avatar": "images\\279.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "空井",
+    "given_name_cn": "咲",
+    "nick_name": [
+      "水咲",
+      "水saki"
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "MG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 161,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      1,
+      1,
+      1,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 6,
+    "avatar": "images\\6.png",
+    "skin_cn": "",
+    "family_name_cn": "月雪",
+    "given_name_cn": "宫子",
+    "nick_name": [
+      ","
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 156,
+    "type": "Tank",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "帽子",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 280,
+    "avatar": "images\\280.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "月雪",
+    "given_name_cn": "宫子",
+    "nick_name": [
+      "水宫",
+      "水宫子"
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "SMG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 156,
+    "type": "Tank",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Heavy",
+    "team_position": "FRONT",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "手套",
+      "徽章",
+      "护符"
+    ],
+    "ex_skill_costs": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "ex_skill_cost": 2
+  },
+  {
+    "id": 9,
+    "avatar": "images\\9.png",
+    "skin_cn": "",
+    "family_name_cn": "霞泽",
+    "given_name_cn": "美游",
+    "nick_name": [
+      "垃圾桶,垃姬兔"
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 149,
+    "type": "Support",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "STRIKER",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "D",
+    "street_adaptability": "S",
+    "equipment": [
+      "手套",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ex_skill_cost": 3
+  },
+  {
+    "id": 278,
+    "avatar": "images\\278.png",
+    "skin_cn": "泳装",
+    "family_name_cn": "霞泽",
+    "given_name_cn": "美游",
+    "nick_name": [
+      ""
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "SR",
+    "age": 15,
+    "grade": "一年生",
+    "height": 149,
+    "type": "Dealer",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 1,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "A",
+    "street_adaptability": "A",
+    "equipment": [
+      "帽子",
+      "手表",
+      "发夹"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  },
+  {
+    "id": 7,
+    "avatar": "images\\7.png",
+    "skin_cn": "",
+    "family_name_cn": "风仓",
+    "given_name_cn": "萌绘",
+    "nick_name": [
+      ""
+    ],
+    "school": "SRT特殊学院",
+    "weapon_type": "HG",
+    "age": 15,
+    "grade": "一年生",
+    "height": 163,
+    "type": "Dealer",
+    "attack_attribute": "Piercing",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "B",
+    "indoor_adaptability": "S",
+    "street_adaptability": "D",
+    "equipment": [
+      "帽子",
+      "背包",
+      "手表"
+    ],
+    "ex_skill_costs": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "ex_skill_cost": 4
+  },
+  {
+    "id": 68,
+    "avatar": "images\\68.png",
+    "skin_cn": "",
+    "family_name_cn": "初音",
+    "given_name_cn": "未来",
+    "nick_name": [
+      ""
+    ],
+    "school": "",
+    "weapon_type": "GL",
+    "age": 16,
+    "grade": "其他",
+    "height": 158,
+    "type": "Support",
+    "attack_attribute": "Explosive",
+    "defensive_attributes": "Light",
+    "team_position": "BACK",
+    "rarity": 3,
+    "battlefield_position": "SPECIAL",
+    "outdoor_adaptability": "D",
+    "indoor_adaptability": "B",
+    "street_adaptability": "S",
+    "equipment": [
+      "鞋子",
+      "徽章",
+      "项链"
+    ],
+    "ex_skill_costs": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "ex_skill_cost": 5
+  }
+]

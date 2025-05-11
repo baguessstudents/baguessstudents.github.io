@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔚蓝档案猜学生小游戏</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?fantasy,gaming') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .game-container {
+            width: 90%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+        }
+
+        .suggestions {
+            border: 1px solid #ccc;
+            background: white;
+            position: absolute;
+            z-index: 1000;
+            width: calc(100% - 30px);
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .suggestion-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .suggestion-item:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="text-center mb-3" style="font-weight:700;">蔚蓝档案猜学生小游戏</h1>
+        <p class="text-center mb-4" style="font-size:1.1rem; color:#555;">系统会根据玩家的猜测输入给出反馈：如果猜测与答案匹配，则显示为绿色；否则灰色。数值类型显示高于 (↓) 或 低于 (↑) 提示。</p>
+        
+        <div class="text-center mb-4">
+            <button id="startBtn" class="btn btn-success btn-lg">开始游戏/重新开始</button>
+        </div>
+        
+        <div id="gameArea" style="display:none;">
+            <div class="input-group mb-3">
+                <input id="guessInput" type="text" class="form-control" placeholder="请输入猜测的学生名，支持别称，如'星野（泳装）'、'水大叔'">
+                <div class="input-group-append">
+                    <button id="guessBtn" class="btn btn-info">确定</button>
+                    <button id="giveUpBtn" class="btn btn-danger">投降</button>
+                </div>
+            </div>
+            <div class="suggestions" id="suggestions"></div>
+            <p class="text-center">本轮尝试次数: <span id="attempts">0</span>/5</p>
+            <div id="resultMessage" class="mt-3"></div>
+            <div id="guessList"></div>
+        </div>
+
+        <div id="hero-detail" style="display:none;">
+            <img id="hero-avatar" src="" alt="角色立绘" style="max-width:200px;">
+            <h2 id="hero-name"></h2>
+            <ul id="hero-attributes"></ul>
+        </div>
+    </div>
+
+<script>
+    let heroes = [];
+    let answer = null;
+    let attempts = 0;
+    const maxAttempts = 5;
+    let guessedIds = new Set(); // 存放已猜测角色的ID
+
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('heroes.json')
+            .then(res => res.json())
+            .then(data => {
+                heroes = data;
+            })
+            .catch(err => console.error('加载学生数据失败', err));
+
+        fetch('appendix.json')
+            .then(res => res.json())
+            .then(data => {
+                window.appendix = data;
+            })
+            .catch(err => console.error('加载附录数据失败', err));
+
+        document.getElementById('startBtn').addEventListener('click', startGame);
+        document.getElementById('guessBtn').addEventListener('click', handleGuess);
+        document.getElementById('giveUpBtn').addEventListener('click', giveUp);
+        document.getElementById('guessInput').addEventListener('input', showSuggestions);
+    });
+
+    function startGame() {
+        if (heroes.length === 0) {
+            alert('学生数据尚未加载，请稍后重试');
+            return;
+        }
+        answer = heroes[Math.floor(Math.random() * heroes.length)];
+        guessedIds.clear(); // 清空已猜测角色的ID
+        attempts = 0;
+        document.getElementById('attempts').textContent = attempts;
+        document.getElementById('guessList').innerHTML = '';
+        document.getElementById('resultMessage').innerHTML = '';
+        document.getElementById('guessInput').value = '';
+        document.getElementById('guessInput').disabled = false;
+        document.getElementById('guessBtn').disabled = false;
+        document.getElementById('giveUpBtn').disabled = false;
+        document.getElementById('gameArea').style.display = 'block';
+        document.getElementById('suggestions').style.display = 'none'; // 隐藏建议框
+    }
+
+    function handleGuess() {
+        const name = document.getElementById('guessInput').value.trim();
+        if (!name) { 
+            alert('请输学生名'); 
+            return; 
+        }
+
+        // 查找角色
+        const guessHero = heroes.find(h => 
+            (h.family_name_cn + h.given_name_cn) === name || 
+            h.given_name_cn === name || 
+            h.nick_name.some(nick => nick === name) || // 精确匹配nickname
+            (h.skin_cn && name === `${h.given_name_cn}（${h.skin_cn}）`)  // 精确匹配皮肤名
+        );
+
+        if (!guessHero) { 
+            alert('未找到该学生：' + name); 
+            return; 
+        }
+
+        // 重复猜测检查
+        if (guessedIds.has(guessHero.id)) { 
+            alert('你已经猜过该学生：' + guessHero.given_name_cn); 
+            return; 
+        }
+        guessedIds.add(guessHero.id); // 添加到已猜测集合
+
+        attempts++;
+        document.getElementById('attempts').textContent = attempts;
+        renderGuessRow(guessHero);
+
+        if (guessHero.id === answer.id) {
+            showResult(true);
+        } else if (attempts >= maxAttempts) {
+            showResult(false);
+        }
+    }
+
+    function giveUp() {
+        showResult(false);
+    }
+
+    function showResult(win) {
+        document.getElementById('guessInput').disabled = true;
+        document.getElementById('guessBtn').disabled = true;
+        document.getElementById('giveUpBtn').disabled = true;
+        const msg = document.getElementById('resultMessage');
+        if (win) {
+            msg.innerHTML = `<div class="alert alert-success">恭喜你猜对了！正确答案是：${answer.given_name_cn}${answer.skin_cn && answer.skin_cn !== '' ? '（' + answer.skin_cn + '）' : ''}</div>`;
+        } else {
+            renderGuessRow(answer);
+            msg.innerHTML = `<div class="alert alert-danger">游戏结束！正确答案是：${answer.given_name_cn}${answer.skin_cn && answer.skin_cn !== '' ? '（' + answer.skin_cn + '）' : ''}</div>`;
+        }
+    }
+
+    function renderGuessRow(guess) {
+        const card = document.createElement('div');
+        card.className = 'card-guess';
+
+        // 头像与名称
+        const header = document.createElement('div');
+        header.className = 'd-flex align-items-center mb-2';
+        const img = document.createElement('img');
+        img.src = guess.avatar; // 使用角色的头像
+        img.alt = guess.given_name_cn; // 使用正确的属性
+        img.style.width = '50px';
+        img.style.height = '50px';
+        img.style.borderRadius = '4px';
+        img.className = 'mr-3';
+        const title = document.createElement('h5');
+        title.textContent = `${guess.family_name_cn}${guess.given_name_cn}${guess.skin_cn ? '（' + guess.skin_cn + '）' : ''}`; // 显示完整名称
+        header.appendChild(img);
+        header.appendChild(title);
+        card.appendChild(header);
+
+        // 属性比较
+        const attrs = document.createElement('div');
+        attrs.className = 'list-group'; // 使用 Bootstrap 的列表组
+
+        // 合并属性的逻辑
+        const mergedAttributes = [
+            {
+                label: '年龄/年级',
+                values: [guess.age, guess.grade],
+                keys: ['age', 'grade']
+            },
+            {
+                label: '野外/室内/街区',
+                values: [guess.outdoor_adaptability, guess.indoor_adaptability, guess.street_adaptability],
+                keys: ['outdoor_adaptability', 'indoor_adaptability', 'street_adaptability']
+            },
+            {
+                label: '攻击属性/防御属性',
+                values: [guess.attack_attribute, guess.defensive_attributes],
+                keys: ['attack_attribute', 'defensive_attributes']
+            },
+            {
+                label: '职能定位/站位/部队类型',
+                values: [guess.type, guess.team_position, guess.battlefield_position],
+                keys: ['type', 'team_position', 'battlefield_position']
+            },
+            {
+                label: '装备',
+                values: [...guess.equipment], // 使用展开运算符创建数组副本，保持原始顺序
+                keys: Array(guess.equipment.length).fill('equipment') // 为每个装备项创建对应的key
+            }
+        ];
+
+        // 定义适应性值的权重
+        const adaptabilityRank = {
+            'SS': 5,
+            'S': 4,
+            'A': 3,
+            'B': 2,
+            'C': 1,
+            'D': 0
+        };
+
+        // 定义年级的权重
+        const gradeRank = {
+            '三年生': 3,
+            '二年生': 2,
+            '一年生': 1
+        };
+
+        mergedAttributes.forEach(item => {
+            const listItem = document.createElement('div');
+            listItem.className = 'list-group-item d-flex justify-content-between align-items-center';
+
+            const attrName = document.createElement('span');
+            attrName.textContent = item.label; // 使用合并后的属性名称
+
+            const attrValue = document.createElement('span');
+            const values = item.values.map((value, index) => {
+                let bgColor = '#e2e3e5'; // 默认背景色
+                let displayValue = value;
+                let textColor = ''; // 文字颜色
+
+                // 检查是否需要替换显示值和添加特殊效果
+                const key = item.keys[index];
+                if (appendix[key] && appendix[key][value]) {
+                    const appendixItem = appendix[key][value];
+                    if (appendixItem.name) {
+                        displayValue = appendixItem.name;
+                    }
+                    if (appendixItem.color) {
+                        textColor = appendixItem.color;
+                    }
+                }
+
+                // 特殊处理装备比较
+                if (key === 'equipment') {
+                    // 检查当前装备是否在答案中的相同位置
+                    const equipIndex = answer.equipment.indexOf(value);
+                    if (equipIndex !== -1) {
+                        bgColor = '#c3e6cb'; // 如果装备在答案中存在，显示绿色
+                    }
+                } else if (value === answer[item.keys[index]]) {
+                    bgColor = '#c3e6cb';
+                }
+
+                // 添加箭头（保持原有逻辑）
+                if (['age', 'grade'].includes(key)) {
+                    let arrow = '';
+                    if (key === 'grade') {
+                        const guessRank = gradeRank[value] || 0;
+                        const answerRank = gradeRank[answer[key]] || 0;
+                        if (guessRank < answerRank) {
+                            arrow = '↑';
+                        } else if (guessRank > answerRank) {
+                            arrow = '↓';
+                        }
+                    } else if (key === 'age') {
+                        if (value < answer[key]) {
+                            arrow = '↑';
+                        } else if (value > answer[key]) {
+                            arrow = '↓';
+                        }
+                    }
+                    displayValue = `${displayValue} ${arrow}`;
+                } else if (['outdoor_adaptability', 'indoor_adaptability', 'street_adaptability'].includes(key)) {
+                    const guessRank = adaptabilityRank[value];
+                    const answerRank = adaptabilityRank[answer[key]];
+                    let arrow = '';
+                    if (guessRank < answerRank) {
+                        arrow = '↑';
+                    } else if (guessRank > answerRank) {
+                        arrow = '↓';
+                    }
+                    displayValue = `${displayValue} ${arrow}`;
+                }
+
+                let html = `<span style="background-color: ${bgColor}; color: ${textColor}; padding: 2px 5px; border-radius: 4px;">${displayValue}`;
+                
+                // 添加图片（如果有）
+                if (appendix[key] && appendix[key][value] && appendix[key][value].url) {
+                    html += `<img src="${appendix[key][value].url}" style="width: 20px; margin-left: 5px; vertical-align: middle;">`;
+                }
+
+                html += '</span>';
+                return html;
+            }).join('/'); // 保持使用 / 分隔
+
+            attrValue.innerHTML = values; // 设置合并后的属性值
+            listItem.appendChild(attrName);
+            listItem.appendChild(attrValue);
+            attrs.appendChild(listItem);
+        });
+
+        // 处理其他未合并的属性（去掉equipment）
+        const keysCat = [
+            { key: 'school', label: '所属' },
+            { key: 'weapon_type', label: '武器类型' },
+            { key: 'height', label: '身高' },
+            { key: 'rarity', label: '稀有度' },
+            { key: 'ex_skill_cost', label: 'ex费用（满级时）' }
+        ];
+
+        keysCat.forEach(item => {
+            const listItem = document.createElement('div');
+            listItem.className = 'list-group-item d-flex justify-content-between align-items-center';
+
+            const attrName = document.createElement('span');
+            attrName.textContent = item.label; // 使用中文属性名称
+
+            const attrValue = document.createElement('span');
+            let value = guess[item.key];
+            // 检查是否需要替换显示值和添加特殊效果
+            if (appendix[item.key] && appendix[item.key][value]) {
+                const appendixItem = appendix[item.key][value];
+                if (appendixItem.name) {
+                    value = appendixItem.name;
+                }
+                if (appendixItem.color) {
+                    attrValue.style.color = appendixItem.color;
+                }
+            }
+
+            // 保持原有的箭头和背景色逻辑
+            if (guess[item.key] === answer[item.key]) {
+                listItem.style.backgroundColor = '#c3e6cb';
+            } else {
+                listItem.style.backgroundColor = '#e2e3e5';
+            }
+
+            // 数值型属性处理
+            if (['height', 'rarity', 'ex_skill_cost'].includes(item.key)) {
+                let arrow = '';
+                if (value < answer[item.key]) {
+                    arrow = '↑'; // 向上箭头
+                } else if (value > answer[item.key]) {
+                    arrow = '↓'; // 向下箭头
+                }
+                value = `${value} ${arrow}`;
+            }
+
+            attrValue.textContent = value;
+            
+            // 添加图片（如果有）
+            if (appendix[item.key] && appendix[item.key][value] && appendix[item.key][value].url) {
+                const img = document.createElement('img');
+                img.src = appendix[item.key][value].url;
+                img.style.width = '20px';
+                img.style.marginLeft = '5px';
+                img.style.verticalAlign = 'middle';
+                attrValue.appendChild(img);
+            }
+
+            listItem.appendChild(attrName);
+            listItem.appendChild(attrValue);
+            attrs.appendChild(listItem);
+        });
+
+        card.appendChild(attrs);
+        document.getElementById('guessList').prepend(card);
+    }
+
+    function showSuggestions() {
+        const input = document.getElementById('guessInput').value.trim();
+        const suggestions = document.getElementById('suggestions');
+        suggestions.innerHTML = '';
+        
+        if (input.length === 0) {
+            suggestions.style.display = 'none';
+            return;
+        }
+
+        const filteredHeroes = heroes.filter(hero => {
+            const fullName = `${hero.given_name_cn}${hero.skin_cn && hero.skin_cn !== '' ? '（' + hero.skin_cn + '）' : ''}`;
+            return hero.nick_name.includes(input) || hero.given_name_cn.includes(input) || fullName.includes(input);
+        });
+
+        filteredHeroes.forEach(hero => {
+            const item = document.createElement('div');
+            item.className = 'suggestion-item';
+            item.textContent = `${hero.given_name_cn}${hero.skin_cn && hero.skin_cn !== '' ? '（' + hero.skin_cn + '）' : ''}`; // 只在skin不为空时显示括号
+            item.onclick = () => {
+                document.getElementById('guessInput').value = item.textContent;
+                suggestions.style.display = 'none';
+            };
+            suggestions.appendChild(item);
+        });
+
+        suggestions.style.display = filteredHeroes.length > 0 ? 'block' : 'none';
+    }
+</script>
+</body>
+</html>

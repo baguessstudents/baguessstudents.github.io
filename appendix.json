@@ -1,0 +1,180 @@
+{
+  "weapon_type": {
+    "RL": {
+      "name": "导弹发射器"
+    },
+    "MG": {
+      "name": "重机枪"
+    },
+    "AR": {
+      "name": "突击步枪"
+    },
+    "GL": {
+      "name": "榴弹发射器"
+    },
+    "RG": {
+      "name": "轨道炮"
+    },
+    "FT": {
+      "name": "喷火器"
+    },
+    "SR": {
+      "name": "狙击枪"
+    },
+    "SMG": {
+      "name": "冲锋枪"
+    },
+    "MT": {
+      "name": "迫击炮"
+    },
+    "HG": {
+      "name": "手枪"
+    },
+    "SG": {
+      "name": "霰弹枪"
+    }
+  },
+  "type": {
+    "Support": {
+      "name": "辅助"
+    },
+    "Tank": {
+      "name": "坦克"
+    },
+    "Healer": {
+      "name": "治疗"
+    },
+    "Dealer": {
+      "name": "输出"
+    },
+    "T.S.": {
+      "name": "载具资源"
+    }
+  },
+  "attack_attribute": {
+    "Mystic": {
+      "name": "神秘",
+      "color": "blue"
+    },
+    "Explosive": {
+      "name": "爆发",
+      "color": "red"
+    },
+    "Piercing": {
+      "name": "贯穿",
+      "color": "yellow"
+    },
+    "Vibration": {
+      "name": "震动",
+      "color": "purple"
+    }
+  },
+  "defensive_attributes": {
+    "Special": {
+      "name": "特殊装甲",
+      "color": "blue"
+    },
+    "Heavy": {
+      "name": "重装甲",
+      "color": "yellow"
+    },
+    "Elastic": {
+      "name": "弹性装甲",
+      "color": "purple"
+    },
+    "Light": {
+      "name": "轻装甲",
+      "color": "red"
+    }
+  },
+  "team_position": {
+    "MIDDLE": {
+      "name": "中排"
+    },
+    "FRONT": {
+      "name": "前排"
+    },
+    "BACK": {
+      "name": "后排"
+    }
+  },
+  "rarity": {
+    "1": {
+      "name": "⭐"
+    },
+    "2": {
+      "name": "⭐⭐"
+    },
+    "3": {
+      "name": "⭐⭐⭐"
+    }
+  },
+  "battlefield_position": {
+    "SPECIAL": {
+      "color": "blue"
+    },
+    "STRIKER": {
+      "color": "red"
+    }
+  },
+  "outdoor_adaptability": {
+    "B": {
+      "url": "images/adaptability/B.png"
+    },
+    "SS": {
+      "url": "images/adaptability/SS.png"
+    },
+    "S": {
+      "url": "images/adaptability/S.png"
+    },
+    "C": {
+      "url": "images/adaptability/C.png"
+    },
+    "A": {
+      "url": "images/adaptability/A.png"
+    },
+    "D": {
+      "url": "images/adaptability/D.png"
+    }
+  },
+  "indoor_adaptability": {
+    "B": {
+      "url": "images/adaptability/B.png"
+    },
+    "SS": {
+      "url": "images/adaptability/SS.png"
+    },
+    "S": {
+      "url": "images/adaptability/S.png"
+    },
+    "C": {
+      "url": "images/adaptability/C.png"
+    },
+    "A": {
+      "url": "images/adaptability/A.png"
+    },
+    "D": {
+      "url": "images/adaptability/D.png"
+    }
+  },
+  "street_adaptability": {
+    "B": {
+      "url": "images/adaptability/B.png"
+    },
+    "SS": {
+      "url": "images/adaptability/SS.png"
+    },
+    "S": {
+      "url": "images/adaptability/S.png"
+    },
+    "C": {
+      "url": "images/adaptability/C.png"
+    },
+    "A": {
+      "url": "images/adaptability/A.png"
+    },
+    "D": {
+      "url": "images/adaptability/D.png"
+    }
+  }
+}
